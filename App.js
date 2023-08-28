@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import 'src/TelaLogin.js';
+import FlexDimensionsBasics from './src/TelaLogin';
 
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
-      <TelaLogin></TelaLogin>
+      <FlexDimensionsBasics></FlexDimensionsBasics>
     </View>
   );
 }
